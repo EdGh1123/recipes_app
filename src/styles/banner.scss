@@ -1,0 +1,37 @@
+.banner{
+    height: 480px;
+    background: url('../../public/assets/bcq.png') 0% 0% no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 24px;
+    position: relative;
+    margin-bottom: 3rem;
+} 
+
+.text-banner{
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    color: #fff;
+    font-size: 5rem;
+}
+
+.title-banner{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+.subtitle-banner{
+    font-family: "Monster Clubhouse";
+    font-weight: 400;
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    width: 300px;
+}
+
+@media (min-width: 960px) { 
+    .banner{
+        margin-bottom: 0;
+    } 
+}

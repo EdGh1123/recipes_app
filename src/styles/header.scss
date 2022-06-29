@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 44px;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 3px 6px #8395A7;
+    position: sticky;
+    z-index: 99999;
+}
+
+.name-logo{
+    font-family: 'Monster Clubhouse';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #425966;
+}
+
+.subname-logo{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    color: #D84A4A;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #425966;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    color:#D84A4A;
+}
+
+.home{
+    display: none;
+}
+
+@media (max-width: 960px) { 
+    .nav{
+        display: none;
+    }
+    .home{
+        display: block;
+    }
+}

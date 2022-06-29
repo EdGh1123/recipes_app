@@ -1,0 +1,84 @@
+.card{
+    background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    width: min-content;
+    min-width: 234px;
+    padding: 1.7rem;
+    border-radius: 0.8rem;
+    box-shadow: 4px 6px 10px #bfc4cad1;
+    position: relative;
+    transition: all .150s ease-in-out;
+    height: min-content;
+    &.active{
+        height: 360px;
+        transform: scale(1.05);
+    }
+}
+
+.img-recipe{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.img-contain{
+    width: 100%;
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph{
+    margin-top: 6rem;
+    margin-bottom: 3.6rem;
+    text-align: center;
+}
+
+.title-recipe{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #D84A4A;
+    font-size: 1.6rem;
+}
+
+.subtitle-recipe{
+    font-family: "Monster Clubhouse";
+    color: #D84A4A;
+    font-size: 1.8rem;
+}
+
+.star-box{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.2rem;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #425966;
+    font-size: 1.4rem;
+}
+
+.title-detail{
+    margin: 0;
+    font-family: "Monster Clubhouse";
+    color: #D84A4A;
+    font-size: 1.4rem;
+}
+
+.description-detail{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #425966;
+    font-size: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 1.1rem;
+}

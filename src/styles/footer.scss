@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 96px;
+    padding: 3rem;
+    background: transparent linear-gradient(180deg, #C2E3F3 0%, #6AA3C1 100%) 0% 0% no-repeat padding-box;
+}
+
+.title-footer{
+    font-family: "Monster Clubhouse";
+    color: #425966;
+    padding-left: 0;
+    font-size: 1.8rem;
+}
+
+.sponsors{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 960px) { 
+    .sponsors{
+        width: 570px;
+    }
+     
+    .title-footer{
+        font-size: 4rem;
+        padding-left: 4rem;
+    }
+
+    .footer{
+        justify-content: space-around;
+    }
+}
