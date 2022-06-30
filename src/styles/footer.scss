@@ -1,3 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/monster-clubhouse');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 .footer{
     display: flex;
     justify-content: space-between;
@@ -9,7 +13,7 @@
 }
 
 .title-footer{
-    font-family: "Monster Clubhouse";
+    font-family: 'Monster Clubhouse';
     color: #425966;
     padding-left: 0;
     font-size: 1.8rem;
@@ -32,5 +36,11 @@
 
     .footer{
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 420px) { 
+    .footer{
+        padding: 14px 20px;
     }
 }

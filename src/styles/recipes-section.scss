@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/monster-clubhouse');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .recipes-section{
     padding: 5% 5% 7% 5%;
     height: 540px;
@@ -8,7 +11,7 @@
     padding: 0;
     text-align: left;
     color: #D84A4A;
-    font-family: "Monster Clubhouse";
+    font-family: 'Monster Clubhouse';
     font-size: 4.5rem;
     font-weight: 400;
 }
@@ -32,3 +35,13 @@
     }
 }
 
+@media (max-width: 420px) { 
+    .title{
+        font-size: 4.5vh;
+    }
+    .recipes-section {
+        padding: 3%;
+        height: auto;
+    }
+    
+}

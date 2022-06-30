@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/monster-clubhouse');
+
 .card{
     background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     width: min-content;
@@ -41,11 +44,11 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #D84A4A;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .subtitle-recipe{
-    font-family: "Monster Clubhouse";
+    font-family: 'Monster Clubhouse';
     color: #D84A4A;
     font-size: 1.8rem;
 }
@@ -67,7 +70,7 @@
 
 .title-detail{
     margin: 0;
-    font-family: "Monster Clubhouse";
+    font-family: 'Monster Clubhouse';
     color: #D84A4A;
     font-size: 1.4rem;
 }
@@ -81,4 +84,15 @@
 
 .mb-2{
     margin-bottom: 1.1rem;
+}
+
+
+
+
+@media (max-width: 420px) { 
+    .paragraph{
+        margin-top: 5rem;
+        margin-bottom: 1.6rem;
+        text-align: center;
+    }
 }

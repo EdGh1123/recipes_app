@@ -1,17 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/monster-clubhouse');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 .banner{
-    height: 480px;
+    height: 340px;
     background: url('../../public/assets/bcq.png') 0% 0% no-repeat;
     background-size: cover;
     background-position: center;
     padding: 24px;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 9rem;
 } 
 
 .text-banner{
     position: absolute;
-    top: 120px;
-    left: 20%;
+    top: 40px;
+    left: 10%;
     color: #fff;
     font-size: 5rem;
 }
@@ -22,7 +26,7 @@
 }
 
 .subtitle-banner{
-    font-family: "Monster Clubhouse";
+    font-family: 'Monster Clubhouse';
     font-weight: 400;
     position: absolute;
     top: 66px;
@@ -32,6 +36,29 @@
 
 @media (min-width: 960px) { 
     .banner{
+        height: 480px;
         margin-bottom: 0;
     } 
+    .text-banner{
+        position: absolute;
+        top: 120px;
+        left: 20%;
+        color: #fff;
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 420px) { 
+    .banner{
+        height: 240px;
+    }
+    .text-banner{
+        top: 26px;
+        font-size: 6vh;
+    }
+
+    .subtitle-banner{
+        top: 50px;
+        left: -44px; 
+    }
 }
